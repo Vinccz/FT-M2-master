@@ -8,7 +8,7 @@ let toDoItems= [];
 
 let myProyect = document.querySelector("#createdBy")
 
-myProyect.innerHTML += "SoyPaps"
+myProyect.innerHTML = myProyect.innerHTML + "SoyPaps"
 // Crear una clase denominada 'ToDo' cuyo constructor debe recibir un único parámetro del tipo string
 // con el nombre 'description' que será justamente la descripción del ToDo.
 // Agregar dos propiedades a la clase:
