@@ -120,6 +120,7 @@ function addToDo() {
 // Tu código acá:
 let boton = document.getElementById("addButton")
 boton.addEventListener("click",addToDo)
+
 // La función completeToDo se va a ejecutar cuando queramos completar un todo
 // [NOTA: Algunas cuestiones a tener en cuenta
 // Todo Event Listener recibe como parámetro el objeto 'event' conteniendo un montón de información que incluye
